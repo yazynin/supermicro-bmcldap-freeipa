@@ -1,0 +1,15 @@
+[Unit]
+Description=Ldap Proxy
+After=network.target
+
+[Service]
+Restart=on-failure
+RestartSec=5s
+Type=simple
+ExecStart=/opt/ldappoxy/ldappoxy
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s SIGINT $MAINPID
+
+
+[Install]
+WantedBy=multi-user.target

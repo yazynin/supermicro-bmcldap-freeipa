@@ -1,0 +1,8 @@
+{
+  "LdapServer": "ldaps://ipserves.com",
+  "LdapBindUser": "ldapuser",
+  "BindDN": "uid=ldapuser,cn=users,cn=accounts,dc=test,dc=org,dc=com",
+  "UserDN": "cn=users,cn=accounts,dc=test,dc=org,dc=com",
+  "SearchGroup": "cn=bmc-admin,cn=groups,cn=accounts,dc=test,dc=org,dc=com",
+  "ServerAddress": "0.0.0.0:3268"
+}
