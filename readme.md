@@ -13,3 +13,9 @@ GOOS=linux GOARCH=amd64 go build -o ldapproxy
 ```
 ldapproxy on this repo
 ```
+## About the Author
+
+This project is maintained by an **Apache Ozone consultant** with real-world production experience.
+
+If you need help deploying Apache Ozone at scale or fixing production issues:
+👉 https://ozone.iteam.site
