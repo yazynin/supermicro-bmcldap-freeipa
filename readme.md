@@ -18,4 +18,4 @@ ldapproxy on this repo
 This project is maintained by an **Apache Ozone consultant** with real-world production experience.
 
 If you need help deploying Apache Ozone at scale or fixing production issues:
-👉 https://ozone.iteam.site
+👉 https://iteam.site
